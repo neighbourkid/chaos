@@ -1,0 +1,28 @@
+INPUT
+Enter grid size (rows and columns): 
+5 5
+Enter number of obstacles: 
+3
+Enter obstacle positions (x y): 
+1 2
+3 3
+4 1
+Enter bot starting position (x y): 
+0 0
+Enter target position (x y): 
+4 4
+
+
+OUTPUT
+Initial grid:
+B . . . .
+. . O . .
+. . . . .
+. . . O .
+. O . . T
+Path found:
+B P P . .
+. . O P .
+. . . P .
+. . . O P
+. O . . T
